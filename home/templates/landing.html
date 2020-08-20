@@ -1,0 +1,143 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>burnt.ml</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="{% static 'style.css' %}">
+	<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Butcherman&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Averia+Gruesa+Libre&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&family=Butcherman&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="jumbotron text-center" id="main_jumbo">
+	<div class="container">
+		<div class="d-inline-flex">
+			<img id="flamelogo" src="{% static 'flame.png' %}">
+			<h1 id="title_logo">burnt.ml</h1>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid pb-5" id="statements">
+	<div  class="row statement">
+		<div class="col">
+		</div>
+		<div class="col">
+		<h3 style="text-align: center; text-decoration: underline;">WHAT?</h3>
+
+		<h4 id="statement1">
+			Algorithm to predict employee churn and enforce “M-PTO” KA Mandatory Paid Time Off. . .
+		</h4>
+		</div>
+		<div class="col">
+			<img src="{% static 'ml.png' %}" class="rightlogo">
+
+		</div>
+	</div>
+	<div  class="row statement">
+		<div class="col">
+			<img src="{% static 'stress.png' %}" class="leftlogo">
+		</div>
+		<div class="col">
+		<h3 style="text-align: center; text-decoration: underline;">PROBLEM</h3>
+		<h4 id="statement1">
+			Employees are experiencing burnout at increasing rates due to the shift to remote work
+			Replacing a sitting employee can cost between 30 -400% of their annual salary
+			It is hard to identify/prevent employee burnout
+		</h4>
+		</div>
+		<div class="col">
+
+		</div>
+	</div>
+	<div  class="row statement">
+		<div class="col">
+		</div>
+		<div class="col" style="align-content: center;">
+			<h3 style="text-align: center; text-decoration: underline;">Model</h3>
+			<img id="design" src="{% static 'map.png' %}" style="align-self: center">
+		</div>
+		<div class="col">
+		</div>
+	</div>
+	<div  class="row statement">
+		<div class="col">
+		</div>
+		<div class="col">
+		<h3 style="text-align: center; text-decoration: underline;">EMPLOYEE FIRST</h3>
+
+		<h4 id="statement1">
+			first application that <i class="wiggle">puts</i> the employees mental health first by managing work life balance
+		</h4>
+		</div>
+		<div class="col">
+			<img id="mentalhealth" src="{% static 'happy-employee.png' %}">
+		</div>
+	</div>
+	<div  class="row statement">
+		<div class="col">
+			<img src="{% static 'cake.png' %}" class="leftlogo">
+		</div>
+		<div class="col">
+		<h3 style="text-align: center; text-decoration: underline;">Ease of Use</h3>
+
+		<h4 id="statement1">
+			one-time setup for employees and endless insights and tools for upper-management
+
+		</h4>
+		</div>
+		<div class="col">
+		</div>
+	</div>
+	<div  class="row statement">
+		<div class="col">
+		</div>
+		<div class="col">
+		<h3 style="text-align: center; text-decoration: underline;">User Experience</h3>
+
+		<h4 id="statement1">
+			world class user experience with clean dashboards and reports
+		</h4>
+		</div>
+		<div class="col">
+		</div>
+	</div>
+	<div  class="row statement">
+		<div class="col">
+		</div>
+		<div class="col">
+		<h3 style="text-align: center; text-decoration: underline;">Endless Possiblilities</h3>
+
+		<h4 id="statement1">
+			supports custom games not recommended by us
+		</h4>
+		</div>
+		<div class="col">
+			<img src="{% static 'endless.png' %}" class="logoright" style="width: 75px; height: auto;">
+		</div>
+	</div>
+</div>
+<footer class="card-footer" id="mainfoot">
+	<div class="row" id="footrow">
+	</div>
+</footer>
+
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="{% static 'script.js' %}"></script>
+
+</body>
+</html>
