@@ -1,0 +1,15 @@
+asgiref
+certifi
+Cython
+Django
+numpy
+pandas
+psycopg2-binary
+python-dateutil
+pytz
+six
+SQLAlchemy
+sqlparse
+boto3
+django-storages
+gunicorn
